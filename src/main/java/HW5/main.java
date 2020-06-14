@@ -27,10 +27,6 @@ public class main {
             e.printStackTrace();
         }
 
-        for (int i = 0; i < cars.length; i++) {
-            new Thread(cars[i]).start();
-        }
-
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка закончилась!!!");
     }
 }
